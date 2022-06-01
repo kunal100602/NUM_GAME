@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
         button1.setText(operand1 + operand2 + " ");
         button2.setText(operand1 - operand2 + " ");
         button3.setText(operand1 * operand2 + " ");
-        button4.setText(operand1 / operand2 + " ");
+        button4.setText(operand1 / operand2 +1+" ");
 
 
         if (matchCounter == 3) {    // if three matches are completed updatee the perfomrance in sharedpreferences
